@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ASUNTO=$1
+MENSAJE=$2
+
+
+notify-send "$ASUNTO" "$MENSAJE"
